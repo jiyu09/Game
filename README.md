@@ -118,4 +118,8 @@ tip 점수 계산 방식에 무엇이 있는지 알면 점수 획득에 더 유�
 
 # 게임 실행
 주소 복사 후 터미널에서 실행
-     git clone 
+     git clone https://github.com/jiyu09/Game.git
+
+     pip install pandas
+
+     python main.py
