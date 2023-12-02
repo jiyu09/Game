@@ -119,7 +119,6 @@ if __name__ == '__main__' :
             if score not in me_score_method :
               if score == 'Nothing' :
                 me.score = 0
-                print(df,'\n')
                 break
               else :
                 score_final = getattr(me, score)
@@ -182,7 +181,6 @@ if __name__ == '__main__' :
           if score not in enemy_score_method :
             if score == 'Nothing' :
               enemy.score = 0
-              print(df,'\n')
               break
             else :
               score_final = getattr(enemy, score)
@@ -233,7 +231,6 @@ if __name__ == '__main__' :
             if score not in enemy_score_method :
               if score == 'Nothing' :
                 enemy.score = 0
-                print(df,'\n')
                 break
               else :
                 score_final = getattr(enemy, score)
@@ -243,7 +240,7 @@ if __name__ == '__main__' :
             next_phase.Bonus(df, 'Player2')
             next_phase.Total_Score(df, 'Player2')
           continue
-
+  print(df,'\n')
   if df.loc['TOTAL SCORE', 'Player1'] > df.loc['TOTAL SCORE', 'Player2'] :
     print('🏆Player1이 이겼습니다. Player2은 분발하세요!🗡️')
   elif df.loc['TOTAL SCORE', 'Player1'] < df.loc['TOTAL SCORE', 'Player2'] :
