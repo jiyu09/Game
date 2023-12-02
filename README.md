@@ -1,4 +1,4 @@
-# Game
+# Yacht Game
 프로그래밍 실습 test
 # 게임 설명
 
