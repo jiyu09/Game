@@ -22,7 +22,7 @@ player는 총 **2명**입니다. (혼자서 해도 되지만 같이 하는 것�
 
 아쉬운 주사위 눈을 골라서 다시 굴릴 수 있는 기회가 한 try 당 총 2번 있습니다.
 
-![스크린샷 2023-12-01 183351.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/b5be55d2-21fd-4abe-972b-f04fbb6062f6/e33f2a3c-1037-4b8e-9116-7bdd9f405f2d/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2023-12-01_183351.png)
+<img width="512" alt="스크린샷 2023-12-01 183351" src="https://github.com/jiyu09/Game/assets/152246059/83e8c37a-dac6-4aef-8d60-ba47450f7eaf">
 
 만약 주사위 눈이 위의 사진처럼 [4], [5], [3], [5], [1] 나왔을 때
 
@@ -31,6 +31,7 @@ player가 1번째 주사위인 [4]와 2번째 주사위인 [5]를 다시 돌리�
 if 처음에 나온 주사위 눈들이 모두 완벽하다면 ?
 
 0을 입력하여 점수를 계산해보세요.
+
 
 다시 굴린 주사위 눈을 보고 아직 player 마음에 안 든다면 기회는 1번이 더 남아있습니다.
 
@@ -108,8 +109,13 @@ tip 점수 계산 방식에 무엇이 있는지 알면 점수 획득에 더 유�
 
 # 게임 실행
 주소 복사 후 터미널에서 실행
+     
      git clone https://github.com/jiyu09/Game.git
+
+게임 진행을 위한 pandas 설치
 
      pip install pandas
 
+게임 실행 !
+     
      python main.py
