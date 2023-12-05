@@ -1,3 +1,4 @@
+# 박지유
 import random
 import pandas as pd
 class Yacht_Dice : # 점수기록 및 플레이 클래스

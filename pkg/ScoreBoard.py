@@ -1,3 +1,4 @@
+# 류호성
 import pandas as pd
 class ScoreBoard: # 스코어보드 만드는 클래스
     @staticmethod
